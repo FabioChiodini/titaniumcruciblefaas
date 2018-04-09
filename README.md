@@ -1,7 +1,7 @@
 # titaniumcruciblefaas
 Serverless version for titaniumcrucible
 
-=== prerequisites
+# Prerequisites
 
 1. riff is deployed
 2. the `riff` CLI is on your PATH
@@ -11,20 +11,24 @@ Serverless version for titaniumcrucible
 
 4. the working directory is where `.py` is
 
-=== create the function
+# Create the function
 
 ```
 riff create python3
 ```
 
-=== publish a message and wait for a reply
+# Publish a message and wait for a reply
 
 ```
 riff publish -i titaniumcruciblefaas --content-type=application/json -d'{"He":"llo","Wor":"ld"}' -r
 ```
 
-=== delete the function and its input topic
+# Delete the function and its input topic
 
 ```
 riff delete --all
 ```
+
+# NOTES
+Use
+watch -n 1 kubectl get pods
