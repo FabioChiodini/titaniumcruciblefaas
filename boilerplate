@@ -6,6 +6,8 @@ print f.read()
 
 use urllib3 for Python3
 
+urllib3==1.22
+
 
 
 Test requests with Python2 invoker
