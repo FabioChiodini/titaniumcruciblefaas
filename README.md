@@ -20,7 +20,7 @@ riff create python3
 === publish a message and wait for a reply
 
 ```
-riff publish -i concat --content-type=application/json -d'{"He":"llo","Wor":"ld"}' -r
+riff publish -i titaniumcruciblefaas --content-type=application/json -d'{"He":"llo","Wor":"ld"}' -r
 ```
 
 === delete the function and its input topic
