@@ -2,3 +2,10 @@ import urllib
 params = urllib.urlencode({'spam': 1, 'eggs': 2, 'bacon': 0})
 f = urllib.urlopen("ELKip", params)
 print f.read()
+
+
+use urllib3 for Python3
+
+
+
+Test requests with Python2 invoker
