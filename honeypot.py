@@ -23,6 +23,8 @@ def log_request(req):
         'url': req.full_path,
     }
     test_logger.info('honeypot: ', extra=extra)
+    #new line
+    return {'extra': extra}
 
 #    data_to_log.update(req.headers)
 
