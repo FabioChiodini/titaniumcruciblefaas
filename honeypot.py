@@ -1,5 +1,5 @@
 import httplib
-titaniumcruciblefaas(req):
+def titaniumcruciblefaas(req):
     connection =  httplib.HTTPConnection('35.201.95.66:80)
     body_content = 'BODY CONTENT GOES HERE'
     connection.request('PUT', '/', body_content)
