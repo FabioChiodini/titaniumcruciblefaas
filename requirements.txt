@@ -1,2 +1,2 @@
-python-logstash==0.4.6
-requests==2.18.4
+#python-logstash==0.4.6
+#requests==2.18.4
