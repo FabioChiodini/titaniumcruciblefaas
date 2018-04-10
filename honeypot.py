@@ -1,7 +1,7 @@
-# from flask import Flask, jsonify, request
-import urllib
-def titaniumcruciblefaas(req):
-    params = urllib.urlencode({'spam': 1, 'eggs': 2, 'bacon': 0})
-    f = urllib.urlopen("35.201.95.66", params)
-    print f.read( )
-    return {'result': 'ok'}
+import httplib
+titaniumcruciblefaas(req):
+    connection =  httplib.HTTPConnection('35.201.95.66:80)
+    body_content = 'BODY CONTENT GOES HERE'
+    connection.request('PUT', '/', body_content)
+    result = connection.getresponse()
+    return {'result': 'ok'}                                 
