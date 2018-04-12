@@ -13,7 +13,7 @@ import logging.handlers
 test_logger = logging.getLogger('python-http-logger')
 test_logger.setLevel(logging.INFO)
 #test_logger.addHandler(logging.handlers.HTTPHandler(host, '/', method='POST'))
-test_logger.addHandler(logging.handlers.HTTPHandler('35.190.36.51', '/', method='POST'))
+test_logger.addHandler(logging.handlers.HTTPHandler('35.201.95.66', '/', method='POST'))
 
 #app = Flask(__name__)
 
@@ -24,7 +24,7 @@ def titaniumcruciblefaas(req):
     }
     test_logger.info('honeypot: ', extra=extra)
     #new line
-    return {'extra': extra}
+    return {'result': ok}
 
 #    data_to_log.update(req.headers)
 
