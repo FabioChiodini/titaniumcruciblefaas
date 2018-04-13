@@ -23,8 +23,9 @@ def titaniumcruciblefaas(req):
         'url': req.full_path,
     }
     test_logger.info('honeypot: ', extra=extra)
+    result = request.environ.get('X-Forwarded-For', request.remote_addr)
     #new line
-    return {'result': ok}
+    return {'result': result}
 
 #    data_to_log.update(req.headers)
 
