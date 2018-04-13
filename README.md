@@ -14,7 +14,7 @@ Serverless version for titaniumcrucible
 # Create the function
 
 ```
-riff create python3
+riff create python3 --push
 ```
 
 # Publish a message and wait for a reply
