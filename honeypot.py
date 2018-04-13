@@ -13,7 +13,7 @@ import logging.handlers
 test_logger = logging.getLogger('python-http-logger')
 test_logger.setLevel(logging.INFO)
 #test_logger.addHandler(logging.handlers.HTTPHandler(host, '/', method='POST'))
-test_logger.addHandler(logging.handlers.HTTPHandler('35.201.95.66', '/', method='POST'))
+test_logger.addHandler(logging.handlers.HTTPHandler('35.190.59.153', '/', method='POST'))
 
 #app = Flask(__name__)
 
