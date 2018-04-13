@@ -4,7 +4,7 @@ import logging
 import logstash
 import sys
 import logging.handlers
-import request
+import requests
 
 #if 'LOG_HOST' not in os.environ:
 #    raise(Exception("LOG_HOST NOT DEFINED"))
